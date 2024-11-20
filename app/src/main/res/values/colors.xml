@@ -1,0 +1,18 @@
+<resources>
+
+    <color name="background_color">#F0F8FF</color>
+
+
+    <color name="button_default_background">#ADD8E6</color>
+    <color name="button_pressed_background">#A9C9D9</color>
+    <color name="button_text_color">#FFFFFF</color>
+
+
+    <color name="reset_button_text">#FF5722</color>
+    <color name="reset_button_background">#FFEBEE</color>
+
+
+
+    <color name="result_text_color">#FF9800</color>
+
+</resources>

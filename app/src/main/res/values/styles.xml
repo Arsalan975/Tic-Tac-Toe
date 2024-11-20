@@ -1,0 +1,20 @@
+<resources>
+    <!-- Button Style for Tic Tac Toe -->
+    <style name="TicTacToeButton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:layout_gravity">fill</item>
+        <item name="android:background">@drawable/button_bg</item>
+        <item name="android:textColor">@color/button_text_color</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:layout_rowWeight">1</item>
+        <item name="android:layout_columnWeight">1</item>
+    </style>
+
+    <!-- Reset Button Style -->
+    <style name="ResetButtonStyle">
+        <item name="android:textColor">@color/reset_button_text</item>
+        <item name="android:background">@drawable/reset_button_bg</item>
+    </style>
+</resources>

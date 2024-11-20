@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/background_gradient"
+    tools:context=".MainActivity">
+
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:columnCount="3"
+        android:rowCount="3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/resetButton"
+        android:layout_marginBottom="16dp">
+
+
+        <Button
+            android:id="@+id/button1"
+            style="@style/TicTacToeButton" />
+        <Button
+            android:id="@+id/button2"
+            style="@style/TicTacToeButton" />
+        <Button
+            android:id="@+id/button3"
+            style="@style/TicTacToeButton" />
+        <Button
+            android:id="@+id/button4"
+            style="@style/TicTacToeButton" />
+        <Button
+            android:id="@+id/button5"
+            style="@style/TicTacToeButton" />
+        <Button
+            android:id="@+id/button6"
+            style="@style/TicTacToeButton" />
+        <Button
+            android:id="@+id/button7"
+            style="@style/TicTacToeButton" />
+        <Button
+            android:id="@+id/button8"
+            style="@style/TicTacToeButton" />
+        <Button
+            android:id="@+id/button9"
+            style="@style/TicTacToeButton" />
+
+    </GridLayout>
+
+    <Button
+        android:id="@+id/resetButton"
+        android:layout_width="184dp"
+        android:layout_height="87dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/reset_button_bg"
+        android:text="Reset"
+        android:textColor="@color/reset_button_text"
+        android:textSize="50sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/gridLayout" />
+
+
+    <TextView
+        android:id="@+id/resultText"
+        android:layout_width="327dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="16dp"
+        android:text="Player X's Turn"
+        android:textColor="@color/result_text_color"
+        android:textSize="46sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/resetButton" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
